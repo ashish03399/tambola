@@ -34,8 +34,33 @@ button.gen-btn-1 {
     background-color: rgb(250, 99, 44);
 }
 
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(3.8,3.8);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
 
 .gen-num {
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 50px;
+    animation: zoom-in-zoom-out 1s 1;
+}
+
+.bingoWords {
+    padding: 10px;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.gen-num-anim {
+    color: grey;
     padding: 10px;
     font-size: 50px;
 }
