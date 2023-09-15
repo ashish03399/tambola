@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("https://assets.website-files.com/5d26d80e8836af2d12ed1269/5dbc3e74c04264191900513c_blue_pattern-1.png");
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+
+}
+
+a {
+    text-decoration: none!important;
+    color: black!important;
+}
+
+.main{
+    height: 80vh;
+}
+
+@media (max-width: 1024px){
+    .main{
+        height: auto;
+    }
+}
+.card-container {
+    width: 70%;
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+h3.card-text {
+    PADDING: 5%;
+    FONT-SIZE: xx-large;
+    COLOR: black;
+    FONT-WEIGHT: 600;
+}
+
+h3.card-text:hover {
+    COLOR: rgb(167, 162, 162)!important;
+}
