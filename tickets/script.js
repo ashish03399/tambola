@@ -349,7 +349,8 @@ $("#tbl").on("click", "td", function () {
 			$(this).addClass("selected");
 		}
 		var marked = $("td.selected").length;
-		$("#marked").html("Marked: " + marked);
+		var playerName = document.getElementById("playerName").value;
+		$("#marked").html(`HI ${playerName}, you Marked:  + ${marked}`);
 		$("#tbl").removeClass("shake-it");
 
 		if (marked < 5) firstFive = false;
